@@ -28,8 +28,8 @@ public class MusicApp extends JFrame {
     private AtomicBoolean stopFlag = new AtomicBoolean(false);
 
     private final String DB_URL = "jdbc:mysql://localhost:3306/songs";
-    private final String USER = "root";
-    private final String PASSWORD = "karan5686";
+    private final String USER = ""; // your username for MySQl
+    private final String PASSWORD = ""; // your password for MySQl
 
     public MusicApp() {
         try {
